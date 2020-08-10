@@ -1,0 +1,91 @@
+.directions {
+    position: absolute;
+    top: 674px;
+    width: 1440px;
+    height: 460px;
+    @media only screen and (max-width: 1439px) {
+        position: static;
+        width: 100%;
+    }
+    &__titles {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        @media only screen and (max-width: 420px) {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        &_subtitle {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: uppercase;
+            color: #c4c4c4;
+        }
+        &_title {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            color: #000000;
+        }
+    }
+    &__star-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_star-img {
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+        &_line {
+            border: 1px solid #2f80ed;
+            width: 48px;
+            background-color: #2f80ed;
+        }
+    }
+}
+
+.directions-btns-container {
+    display: flex;
+    justify-content: center;
+    &__button {
+        width: 150px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #000000;
+        cursor: pointer;
+        text-decoration: none;
+        @media only screen and (max-width: 950px) {
+            width: 33%;
+        }
+    }
+    &__line {
+        height: 150px;
+        border: 1px solid #2f80ed;
+        background-color: #2f80ed;
+        margin-left: 100px;
+        margin-right: 100px;
+        @media only screen and (max-width: 950px) {
+            margin-left: 0;
+            margin-right: 0;
+            height: auto;
+        }
+        @media only screen and (max-width: 420px) {
+            margin-left: 0;
+            margin-right: 0;
+            height: auto;
+        }
+    }
+}

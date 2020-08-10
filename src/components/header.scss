@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    width: 100%;
+    min-height: 72px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    z-index: 2;
+    @media only screen and (max-width: 1439px) {
+        justify-content: space-around;
+    }
+    @media only screen and (max-width: 870px) {
+        flex-wrap: wrap;
+        position: relative;
+    }
+    @media only screen and (max-width: 670px) {
+        flex-direction: column;
+    }
+    &__logo {
+        margin-left: 206px;
+        margin-right: 196px;
+        @media only screen and (max-width: 1439px) {
+            margin: 0;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        @media only screen and (max-width: 670px) {
+            margin-bottom: 15px;
+        }
+    }
+    &__description {
+        margin-right: 55px;
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 17px;
+        color: #2f80ed;
+        @media only screen and (max-width: 1439px) {
+            margin: 0;
+        }
+        @media only screen and (max-width: 670px) {
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+        }
+        @media only screen and (max-width: 420px) {
+            width: 100%;
+            justify-content: space-around;
+        }
+        &_item {
+            margin-right: 23px;
+            @media only screen and (max-width: 670px) {
+                margin: 0;
+            }
+        }
+    }
+    &__sign-btn {
+        border: 1px solid #2f80ed;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2f80ed;
+        padding: 8px 8px 12px 12px;
+        @media only screen and (max-width: 870px) {
+            width: 80%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            display: block;
+        }
+    }
+}
