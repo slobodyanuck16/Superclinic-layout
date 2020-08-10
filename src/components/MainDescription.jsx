@@ -7,7 +7,7 @@ function MainDescription() {
         <section className="main-description">
             <img
                 className="main-description__background-img"
-                src="../img/main-description.png"
+                src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/main-description.png"
                 alt=""
             />
             <div className="main-description__description">

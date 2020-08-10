@@ -8,7 +8,7 @@ function Massage() {
             <section className="direction">
                 <img
                     className="direction__background"
-                    src="../img/massage-background.png"
+                    src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/massage-background.png"
                     alt="asd"
                 />
                 <div className="direction__description-container">
@@ -37,7 +37,7 @@ function Massage() {
                 </div>
                 <img
                     className="direction__image"
-                    src="../img/massage-main.png"
+                    src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/massage-main.png"
                     alt=""
                 />
             </section>

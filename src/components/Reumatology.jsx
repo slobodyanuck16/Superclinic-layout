@@ -6,7 +6,7 @@ function Reumatology() {
     return (
         <>
             <section className="direction">
-            <img className="direction__background" src="../img/reumatology-background.png" alt="asd"/>
+            <img className="direction__background" src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/reumantology-background.png" alt="asd"/>
                 <div className="direction__description-container">
                     <h3 className="direction__description-container_title">
                         ревматологія
@@ -31,7 +31,7 @@ function Reumatology() {
                         Деталі
                     </button>
                 </div>
-                <img className="direction__image" src="../img/reumatology.png" alt="" />
+                <img className="direction__image" src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/reumantology.png" alt="" />
             </section>
         </>
     );

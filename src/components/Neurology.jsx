@@ -8,7 +8,7 @@ function Neurology() {
             <section className="direction">
                 <img
                     className="direction__background"
-                    src="../img/neurology-background.png"
+                    src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/neurology-background.png"
                     alt="asd"
                 />
                 <div className="direction__description-container">
@@ -37,7 +37,7 @@ function Neurology() {
                 </div>
                 <img
                     className="direction__image"
-                    src="../img/neurology.png"
+                    src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/neurology.png"
                     alt=""
                 />
             </section>

@@ -20,7 +20,7 @@ function Directions() {
                     <span className="directions__star-container_line"></span>
                     <img
                         className="directions__star-container_star-img"
-                        src="../img/star.png"
+                        src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/star.png"
                         alt="star"
                     />
                     <span className="directions__star-container_line"></span>
@@ -31,7 +31,7 @@ function Directions() {
                     to="neurology"
                     className="directions-btns-container__button"
                 >
-                    <img src="../img/brain.png" alt="" />
+                    <img src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/brain.png" alt="brain" />
                     <span className="main-description__contacts_text">
                         Неврологія
                     </span>
@@ -41,7 +41,7 @@ function Directions() {
                     to="massage"
                     className="directions-btns-container__button"
                 >
-                    <img src="../img/massage.png" alt="" />
+                    <img src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/massage.png" alt="massage" />
                     <span className="main-description__contacts_text">
                         Масаж
                     </span>
@@ -51,7 +51,7 @@ function Directions() {
                     to="reumantology"
                     className="directions-btns-container__button"
                 >
-                    <img  src="../img/bone.png" alt="" />
+                    <img  src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/bone.png" alt="bone" />
                     <span className="main-description__contacts_text">
                         Ревматологія
                     </span>

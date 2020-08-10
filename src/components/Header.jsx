@@ -5,7 +5,7 @@ import "./header.scss"
 function Header() {
     return (
         <div className="header">
-            <img className="header__logo" src="../img/header-logo.png" alt="header-logo"/>
+            <img className="header__logo" src="https://raw.githubusercontent.com/slobodyanuck16/Superclinic-layout/master/img/header-logo.png" alt="header-logo"/>
             <div className="header__description">
                 <span className="header__description_item">Переваги</span>
                 <span className="header__description_item">Ціни</span>
