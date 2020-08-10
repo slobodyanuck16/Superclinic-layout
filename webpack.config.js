@@ -11,7 +11,6 @@ module.exports = (env, argv) => {
         entry: "./src/index.jsx",
         output: {
             filename: "bundle.js",
-            publicPath: "/",
         },
         module: {
             rules: [
