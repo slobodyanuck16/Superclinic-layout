@@ -3,7 +3,7 @@ To view build project open link: [Superclinic-layout](https://inspiring-easley-b
 # Project tech stack
 
 HTML5, CSS, Sass, BEM methodology, React, SPA by react-
-router-dom, Redux, Javascript (ES6)
+router-dom, Redux, Javascript (ES6), BEM methodology
 
 ## Available Scripts
 
